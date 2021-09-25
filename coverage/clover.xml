@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1632598665105" clover="3.2.0">
-  <project timestamp="1632598665105" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="5" coveredelements="5" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
+<coverage generated="1632611815687" clover="3.2.0">
+  <project timestamp="1632611815687" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
     <file name="calculatorApi.js" path="/Users/muthupriya.palaniappan/Documents/calculator-api-automation/src/utils/calculatorApi.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
-      <line num="15" count="2" type="stmt"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="6" type="stmt"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="7" count="42" type="stmt"/>
+      <line num="8" count="42" type="stmt"/>
+      <line num="16" count="29" type="stmt"/>
+      <line num="18" count="13" type="stmt"/>
     </file>
   </project>
 </coverage>

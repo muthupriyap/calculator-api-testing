@@ -15,6 +15,13 @@
     "jest": "^27.2.2"
   },
   "dependencies": {
-    "axios": "^0.21.4"
+    "axios": "^0.21.4",
+    "jest-html-reporters": "^2.1.6"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "jest-html-reporters"
+    ]
   }
 }
