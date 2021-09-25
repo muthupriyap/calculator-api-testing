@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const END_POINT = "http://miscellaneous.yospace.com:8080";
-const CALCULATOR_PATH = "/yospace/calculator";
+export const CALCULATOR_PATH = "/yospace/calculator";
 
 export async function getCalculatorResult(operator, operands) {
     try{
@@ -15,7 +15,6 @@ export async function getCalculatorResult(operator, operands) {
         });
         return response;
     }catch(error){
-        console.log(error);
         return error;
     }
 }

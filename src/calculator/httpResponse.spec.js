@@ -1,8 +1,7 @@
-import { getCalculatorResult } from "../utils/calculatorApi";
-
+import { getCalculatorResult, CALCULATOR_PATH } from "../utils/calculatorApi";
 
 describe("HTTP response validation", function() {
-
+    
     let response;
     beforeAll(async () => {
         response = await getCalculatorResult("+", ["2", "5"]);
@@ -38,10 +37,13 @@ describe("HTTP response validation", function() {
         expect(result.response.status).toBe(500);
     });
 
-    test.only("Validating the statusText for internal server Error ", async function(){
+    test("Validating the statusText for internal server Error ", async function(){
         const result = await getCalculatorResult("%", ['', '']);
-        console.log(result.response.data.error)
         expect(result.response.data.error).toBe("Internal Server Error");
     });
    
+    test("Validating the request path resource ", async function(){
+        const result = await getCalculatorResult("%", ['', '']);
+        expect(result.response.data.path).toBe(CALCULATOR_PATH);
+    });
 });
