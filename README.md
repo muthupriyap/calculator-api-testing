@@ -8,7 +8,7 @@ POST - http://miscellaneous.yospace.com:8080/yospace/calculator
 
 1. [yarn](https://www.npmjs.com/package/yarn)
 2. [jest](https://www.npmjs.com/package/jest)
-3. [axios][https://www.npmjs.com/package/axios]
+3. [axios](https://www.npmjs.com/package/axios)
 4. [jest-html-reporters](https://www.npmjs.com/package/jest-html-reporters)
 
 **Directory Structure**
