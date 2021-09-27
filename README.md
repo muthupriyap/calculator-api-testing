@@ -32,4 +32,8 @@ package.json
 
 **Report**
 
-jest_html_reporters.html
+/ jest_html_reporters.html
+
+**Test Plan**
+
+/ Test Plan for API Automation.docx
