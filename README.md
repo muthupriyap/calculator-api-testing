@@ -32,3 +32,4 @@ package.json
 
 **Report**
 
+jest_html_reporters.html
